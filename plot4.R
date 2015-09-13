@@ -67,8 +67,8 @@ with(x, plot(Date, Voltage, type = "l",
 
 
 #--------------------------------------------------------
-# Create the Plot 2
-# (Voltage per hour)
+# Create the Plot 3
+# (Sub Metering variables per hour)
 #--------------------------------------------------------
 with(x, plot(Date, Sub_metering_1, type = "l", xlab = "", ylab = "Energy sub metering" ))
 with(x, lines(Date, Sub_metering_2, type = "l", col = "red" ))
