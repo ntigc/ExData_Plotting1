@@ -6,35 +6,30 @@
 ## 
 ##
 ## Course Code: exdata-032
-## Author: Nicolas Iguchi
+## Author     : Nicolas Iguchi
+## Script     : Plot1.R
 ##
 ##
 ## This script creates the plot number 1 of the Course Assignment.
-## (plot1.png file) 
+## (plot1.png file , Frequency of Global Active Power (kW) ) 
 ##
 ##
-## 1. Downloads, extracts and reads the data set to explore
-##
-## 2. Merges both train and test data sets in a single one
-## 3. Gets the activity name for all sets by joining the
-##    ActivityLabel DataSet
-## 4. Select only the needed variables, naming them
-##    based on the features.txt file
-##
-## 5. Copy the plot into the corresponding png device
+## 1. Downloads, unzips and reads the data set to explore
+## 2. Filter the data to take only the needed dates
+## 3. Create the histogram in the screen and set all 
+##    the parameters( Title, X/Y Labels, Colours, etc )
+## 4. Copy the plot into the corresponding png device
 ##
 ##******************************************************
 
 
 
 #--------------------------------------------------------
-# Load the used libraries
+# Load the script that loads and cleans the 
+# input data Set to create the graphs and 
+# executes it
 #--------------------------------------------------------
-library("dplyr")
-library("tidyr")
-
-source("C:/Users/tebo/GitHubRepos/ExData_Plotting1/CleanData.R")
-
+source("cleanData.R")
 x <- cleanData()
 
 
@@ -50,5 +45,5 @@ hist(x$Global_active_power,
 #--------------------------------------------------------
 # Copy the plot to a PNG file
 #--------------------------------------------------------
-dev.copy(png, file = "C:/Users/tebo/GitHubRepos/ExData_Plotting1/plot1.png", height = 480, width = 480)
+dev.copy(png, file = "plot1.png", height = 480, width = 480)
 dev.off()
