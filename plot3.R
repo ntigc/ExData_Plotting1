@@ -13,14 +13,16 @@
 ## (plot3.png file, Sub Metering per hour) 
 ##
 ##
-## 1. Downloads, unzips and reads the data set to explore
-## 2. Filter the data to take only the needed dates
-## 3. Create the line graph in the screen for sub_metering_1 variable
-## 4. Set all parameters( Title, X/Y Labels, Colours, etc )
-## 5. Adds to the graph the line corresponding to sub_metering_2 variable
-## 6. Adds to the graph the line corresponding to sub_metering_3 variable
-## 7. Add the legend of the graph
-## 8. Copy the plot into the corresponding png device
+## Steps Performed
+##
+## 01. Downloads, unzips and reads the data set to explore (CleanData.R script)
+## 02. Filter the data to take only the needed dates (CleanData.R script)
+## 03. Create the line graph in the screen for sub_metering_1 variable
+## 04. Set all parameters( Title, X/Y Labels, Colours, etc )
+## 05. Adds to the graph the line corresponding to sub_metering_2 variable
+## 06. Adds to the graph the line corresponding to sub_metering_3 variable
+## 07. Add the legend of the graph
+## 08. Copy the plot into the corresponding png device
 ##
 ##******************************************************
 

@@ -12,10 +12,22 @@
 ## This script creates the plot number 4 of the Course Assignment.
 ## (plot4.png file) 
 ##
+## Steps Performed
 ##
-## 1. Reads and merges all sets, activity names and subject 
-##    files into a single data Set
+## 01. Downloads, unzips and reads the data set to explore (CleanData.R script)
+## 02. Filter the data to take only the needed dates (CleanData.R script)
+## 03. Splits the screen device in four quadrants
+## 04. Create the line graph in the screen for Global Active Power Variable (Plot 1-1)
+## 05. Create the line graph in the screen for Voltage Variable (Plot 1-2)
+## 06. Create the line graph in the screen for sub_metering_1 variable (Plot 2-1)
+## 07. Set all parameters( Title, X/Y Labels, Colours, etc ) (Plot 2-1
+## 08. Adds to the graph the line corresponding to sub_metering_2 variable (Plot 2-1)
+## 09. Adds to the graph the line corresponding to sub_metering_3 variable (Plot 2-1)
+## 10. Add the legend of the graph (Plot 2-1)
+## 11. Create the line graph in the screen for Global Reactive Power variable (Plot 2-2)
+## 12. Copy the plot into the corresponding png device
 ##
+##******************************************************
 
 ## 5. Copy the plot into the corresponding png device
 ##

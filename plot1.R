@@ -14,11 +14,11 @@
 ## (plot1.png file , Frequency of Global Active Power (kW) ) 
 ##
 ##
-## 1. Downloads, unzips and reads the data set to explore
-## 2. Filter the data to take only the needed dates
-## 3. Create the histogram in the screen and set all 
+## 01. Downloads, unzips and reads the data set to explore (CleanData.R script)
+## 02. Filter the data to take only the needed dates (CleanData.R script)
+## 03. Create the histogram in the screen and set all 
 ##    the parameters( Title, X/Y Labels, Colours, etc )
-## 4. Copy the plot into the corresponding png device
+## 04. Copy the plot into the corresponding png device
 ##
 ##******************************************************
 
