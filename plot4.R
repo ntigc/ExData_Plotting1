@@ -29,13 +29,12 @@
 ##
 ##******************************************************
 
-## 5. Copy the plot into the corresponding png device
-##
-##******************************************************
 
 
 #--------------------------------------------------------
-# Load the used libraries
+# Load the script that loads and cleans the 
+# input data Set to create the graphs and 
+# executes it
 #--------------------------------------------------------
 source("CleanData.R")
 x <- cleanData()
